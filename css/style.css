@@ -316,10 +316,10 @@ body {
   border-top: var(--line);
   border-bottom: var(--line);
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: .7rem; }
+  flex-wrap: wrap; }
   .list__item {
-    flex: 0 0 50%; }
+    flex: 0 0 50%;
+    margin-bottom: .7rem; }
   .list__item::before {
     content: "";
     display: inline-block;
@@ -339,6 +339,8 @@ body {
   align-items: center; }
   .recommend__count {
     margin-right: auto; }
+  .recommend__friends {
+    display: flex; }
   .recommend__photo {
     box-sizing: content-box;
     height: 4rem;
@@ -346,7 +348,7 @@ body {
     border-radius: 50%;
     border: 3px solid #fff; }
     .recommend__photo:not(:last-child) {
-      margin-right: -1.15rem; }
+      margin-right: -2rem; }
 
 .review {
   background-color: #fff;

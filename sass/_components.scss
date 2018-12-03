@@ -335,7 +335,7 @@
 }
 
 /////////////////////////////////
-//LSIT
+//LIsT
 .list {
     list-style: none;
     margin: 3rem 0;
@@ -345,10 +345,11 @@
 
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: .7rem;
+    
 
     &__item {
         flex: 0 0 50%;
+        margin-bottom: .7rem;
     }
 
     &__item::before {
@@ -388,7 +389,7 @@
     }
 
     &__friends{
-
+        display: flex;
     }
 
     &__photo {
@@ -399,7 +400,7 @@
         border: 3px solid #fff;
 
         &:not(:last-child) {
-            margin-right: -1.15rem;
+            margin-right: -2rem;
         }
 
     }
